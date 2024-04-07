@@ -76,8 +76,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/movies_hub_official2>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/movies_hub_official2")]])
+         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/+nyWaUe_gzvUxNDll>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/+nyWaUe_gzvUxNDll")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -236,7 +236,7 @@ async def next_page(bot, query):
     time_difference = timedelta(hours=cur_time.hour, minutes=cur_time.minute, seconds=(cur_time.second+(cur_time.microsecond/1000000))) - timedelta(hours=curr_time.hour, minutes=curr_time.minute, seconds=(curr_time.second+(curr_time.microsecond/1000000)))
     remaining_seconds = "{:.2f}".format(time_difference.total_seconds())
     if settings["button"]:
-        cap = f"<b> 🎬 Tɪᴛʟᴇ : {search}\n\n📂 Fɪʟᴇꜱ : {total}\n\n⏰ Rᴇsᴜʟᴛ Sʜᴏᴡɴ Iɴ : {remaining_seconds} <i>seconds 🔥</i>\n\n📝 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {query.from_user.mention}\n\n⚜️ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href=https://t.me/TG_LINKS_CHANNEL>MOVIE CHANNEL</a></b>"
+        cap = f"<b> 🎬 Tɪᴛʟᴇ : {search}\n\n📂 Fɪʟᴇꜱ : {total}\n\n⏰ Rᴇsᴜʟᴛ Sʜᴏᴡɴ Iɴ : {remaining_seconds} <i>seconds 🔥</i>\n\n📝 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {query.from_user.mention}\n\n⚜️ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href=https://t.me/DEADPOOL_3_2024_HINDI>MOVIE CHANNEL</a></b>"
     else:
         # cap = f"<b>Hᴇʏ {query.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
         cap = f"<b>Hᴇʏ {query.from_user.mention}, Fᴏᴜɴᴅ {total} Rᴇsᴜʟᴛs ғᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}\n\n</b>"
@@ -1421,7 +1421,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("⚠️ Uɴᴀᴠᴀɪʟᴀʙʟᴇ ⚠️", callback_data=f"unalert#{from_user}")
               ]]
         btn2 = [[
-                 InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url="https://t.me/TG_LINKS_CHANNEL"),
+                 InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url="https://t.me/Virus_Networks"),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ]]
         if query.from_user.id in ADMINS:
@@ -1444,10 +1444,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("✅ Uᴘʟᴏᴀᴅᴇᴅ ✅", callback_data=f"upalert#{from_user}")
               ]]
         btn2 = [[
-                 InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url="https://t.me/TG_LINKS_CHQNNEL"),
+                 InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url="https://t.me/Virus_Networks"),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/movies_hub_official1")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+nyWaUe_gzvUxNDll")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1469,10 +1469,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton("🟢 Aʟʀᴇᴀᴅʏ Aᴠᴀɪʟᴀʙʟᴇ 🟢", callback_data=f"alalert#{from_user}")
               ]]
         btn2 = [[
-                 InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url="https://t.me/TG_LINKS_CHANNEL"),
+                 InlineKeyboardButton('Jᴏɪɴ Cʜᴀɴɴᴇʟ', url="https://t.me/Virus_Networks"),
                  InlineKeyboardButton("Vɪᴇᴡ Sᴛᴀᴛᴜs", url=f"{query.message.link}")
                ],[
-                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/movies_hub_official1")
+                 InlineKeyboardButton("Rᴇᴏ̨ᴜᴇsᴛ Gʀᴏᴜᴘ Lɪɴᴋ", url="https://t.me/+nyWaUe_gzvUxNDll")
                ]]
         if query.from_user.id in ADMINS:
             user = await client.get_users(from_user)
@@ -1531,7 +1531,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('💳 𝐆𝐄𝐓 𝐀𝐃𝐙 𝐅𝐑𝐄𝐄 𝐅𝐈𝐋𝐄 💳', callback_data='kushal') 
+                    InlineKeyboardButton('🌟 ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴀɴᴅ ʀᴇᴍᴏᴠᴇ ᴀᴅs 🌟', callback_data='kushal') 
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1620,7 +1620,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('CHECK PLANS', callback_data='check'), 
         ],[
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/Virus_Botz/34"), 
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1644,9 +1644,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "check":
         buttons = [[
-            InlineKeyboardButton('PLAN 1', callback_data='plan1'), 
-            InlineKeyboardButton('PLAN 2', callback_data='plan2'), 
-            InlineKeyboardButton('PLAN 3', callback_data='plan3') 
+            InlineKeyboardButton('• ʙʀᴏɴᴢᴇ •', callback_data='plan1'), 
+            InlineKeyboardButton('• sɪʟᴠᴇʀ •', callback_data='plan2'),  
+        ],[
+            InlineKeyboardButton('• ɢᴏʟᴅ •', callback_data='plan𝟹'), 
+            InlineKeyboardButton('• ᴘʟᴀᴛɪɴᴜᴍ •', callback_data='plan4'),  
+        ],[
+            InlineKeyboardButton('• ᴅɪᴀᴍᴏɴᴅ •', callback_data='plan5'), 
+            InlineKeyboardButton('• ᴄʀᴏᴡɴ •', callback_data='plan6'),  
         ],[
             InlineKeyboardButton('<————«« Back »»————>', callback_data='kushal'), 
         ]]
@@ -1672,8 +1677,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "plan1":
         buttons = [[
-            InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot"), 
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391") 
+            InlineKeyboardButton('Send ScreenShot', url="t.me/MrVirus02Bot"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/Virus_Botz/34") 
         ],[
             InlineKeyboardButton('CHECK PLANS', callback_data='check')
         ]]
@@ -1690,7 +1695,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/9f8d4bf52250f85c4f38c.jpg")
+            InputMediaPhoto("https://telegra.ph/file/c216b7e901ce3b90a27b9.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN1_TXT,
@@ -1699,8 +1704,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan2":
         buttons = [[
-            InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot"), 
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391") 
+            InlineKeyboardButton('Send ScreenShot', url="t.me/MrVirus02Bot"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/Virus_Botz/34") 
         ],[  
             InlineKeyboardButton('CHECK PLANS', callback_data='check')                   
         ]]
@@ -1717,7 +1722,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/9f8d4bf52250f85c4f38c.jpg")
+            InputMediaPhoto("https://telegra.ph/file/c216b7e901ce3b90a27b9.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN2_TXT,
@@ -1726,8 +1731,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "plan3":
         buttons = [[
-            InlineKeyboardButton('Send ScreenShot', url="https://t.me/Tg_support1_bot"), 
-            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/TG_UPDATES1/391") 
+            InlineKeyboardButton('Send ScreenShot', url="t.me/MrVirus02Bot"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/Virus_Botz/34") 
         ],[
             InlineKeyboardButton('CHECK PLANS', callback_data='check')
         ]]
@@ -1744,14 +1749,94 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto("https://graph.org/file/9f8d4bf52250f85c4f38c.jpg")
+            InputMediaPhoto("https://telegra.ph/file/c216b7e901ce3b90a27b9.jpg")
         ) 
         await query.message.edit_text(
             text=script.PLAN3_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
+        )     
+    elif query.data == "plan4":
+        buttons = [[
+            InlineKeyboardButton('Send ScreenShot', url="t.me/MrVirus02Bot"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/Virus_Botz/34") 
+        ],[
+            InlineKeyboardButton('CHECK PLANS', callback_data='check')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://telegra.ph/file/c216b7e901ce3b90a27b9.jpg")
         ) 
-
+        await query.message.edit_text(
+            text=script.PLAN4_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        ) 
+    elif query.data == "plan5":
+        buttons = [[
+            InlineKeyboardButton('Send ScreenShot', url="t.me/MrVirus02Bot"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/Virus_Botz/34") 
+        ],[
+            InlineKeyboardButton('CHECK PLANS', callback_data='check')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://telegra.ph/file/c216b7e901ce3b90a27b9.jpg")
+        ) 
+        await query.message.edit_text(
+            text=script.PLAN5_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        ) 
+    elif query.data == "plan6":
+        buttons = [[
+            InlineKeyboardButton('Send ScreenShot', url="t.me/MrVirus02Bot"), 
+            InlineKeyboardButton('HOW ITS WORK', url="https://t.me/Virus_Botz/34") 
+        ],[
+            InlineKeyboardButton('CHECK PLANS', callback_data='check')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■ □ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ □"
+        )
+        await query.message.edit_text(
+            text="■ ■ ■"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto("https://telegra.ph/file/c216b7e901ce3b90a27b9.jpg")
+        ) 
+        await query.message.edit_text(
+            text=script.PLAN6_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        ) 
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('❗❗ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ❗❗', callback_data='disclaimer')
@@ -2337,7 +2422,7 @@ async def auto_filter(client, msg, spoll=False):
                 cap += f"<b>\n📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b>🎬 Tɪᴛʟᴇ : {search}\n\n📂 Fɪʟᴇꜱ : {total}\n\n⏰ Rᴇsᴜʟᴛ Sʜᴏᴡɴ Iɴ : {remaining_seconds} <i>seconds 🔥</i>\n\n📝 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {query.from_user.mention}\n\n⚜️ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href=https://t.me/KUSHALHK>KUSHAL</a></b>"
+            cap = f"<b>🎬 Tɪᴛʟᴇ : {search}\n\n📂 Fɪʟᴇꜱ : {total}\n\n⏰ Rᴇsᴜʟᴛ Sʜᴏᴡɴ Iɴ : {remaining_seconds} <i>seconds 🔥</i>\n\n📝 Rᴇǫᴜᴇsᴛᴇᴅ Bʏ : {query.from_user.mention}\n\n⚜️ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href=https://t.me/Virus_Networks>會๛『 𝐕𝐢𝐫𝐮𝐬 𝐍𝐞𝐭𝐰𝐨𝐫𝐤𝐬 』</a></b>"
         else:
             # cap = f"<b>Hᴇʏ {message.from_user.mention}, Hᴇʀᴇ ɪs ᴛʜᴇ ʀᴇsᴜʟᴛ ғᴏʀ ʏᴏᴜʀ ᴏ̨ᴜᴇʀʏ {search} \n\n</b>"
             cap = f"<b>Hᴇʏ {message.from_user.mention}, Fᴏᴜɴᴅ {total_results} Rᴇsᴜʟᴛs ғᴏʀ Yᴏᴜʀ Qᴜᴇʀʏ {search}\n\n</b>"
