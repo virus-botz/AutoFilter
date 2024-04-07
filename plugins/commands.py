@@ -26,7 +26,7 @@ BATCH_FILES = {}
 async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-                    InlineKeyboardButton('🔸 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK),
                     InlineKeyboardButton('ɢʀᴏᴜᴘ', url=GRP_LNK)
@@ -52,7 +52,7 @@ async def start(client, message):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('💳 𝐆𝐄𝐓 𝐀𝐃𝐙 𝐅𝐑𝐄𝐄 𝐅𝐈𝐋𝐄 💳', callback_data='kushal') 
+                    InlineKeyboardButton('✨ ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴀɴᴅ ʀᴇᴍᴏᴠᴇ ᴀᴅs ✨', callback_data='kushal') 
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_text("👀")
@@ -109,7 +109,7 @@ async def start(client, message):
                     InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                   ],[
-                    InlineKeyboardButton('💳 𝐆𝐄𝐓 𝐀𝐃𝐙 𝐅𝐑𝐄𝐄 𝐅𝐈𝐋𝐄 💳', callback_data='kushal') 
+                    InlineKeyboardButton('✨ ʙᴜʏ sᴜʙsᴄʀɪᴘᴛɪᴏɴ ᴀɴᴅ ʀᴇᴍᴏᴠᴇ ᴀᴅs ✨', callback_data='kushal') 
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
