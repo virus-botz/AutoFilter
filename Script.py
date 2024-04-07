@@ -278,24 +278,19 @@ Mᴏᴠɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀsᴏɴ:
 
 @VIRUS_STUDIOS_FILTER_BOT"""
 
-    CAPTION = """ 
-🗂 𝗙𝗶𝗹𝗲: <b><font class=smcp>{file_name}</font></b>
-📀 𝗦𝗶𝘇𝗲: <b><font class=smcp>{file_size}</font></b>
+    CAPTION = """<b>💫 ʝσιɳ : <a href=https://t.me/Virus_Networks/4>會๛『 𝐕𝐢𝐫𝐮𝐬 𝐍𝐞𝐭𝐰𝐨𝐫𝐤𝐬 』</a>
 
-<b>🔰 Cʀᴇᴀᴛᴏʀ : <a href="https://t.me/KUSHALHK">𝐊𝐔𝐒𝐇𝐀𝐋</a>
-🔰 Cʜᴀɴɴᴇʟ : <a href="https://t.me/TG_LINKS_CHANNEL">𝐌𝐎𝐕𝐈𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋</a>
-🔰 Gʀᴏᴜᴘ : <a href="https://t.me/movies_hub_official1">𝐌𝐎𝐕𝐈𝐄 𝐑𝐄𝐐𝐔𝐄𝐒𝐓 𝐆𝐑𝐎𝐔𝐏</a></b>"""
+🎬 тιтℓє : <a href=https://t.me/Virus_Studios/436>{caption}</a>
+
+♻️ ѕιzє ➠ : {file_size}</b>"""
     
     IMDB_TEMPLATE_TXT = """
-<b>Query: {query}
-IMDb Data:
-
-🧿 𝐓𝐈𝐓𝐋𝐄: <a href={url}>{title}</a>
-🎭 𝐆𝐄𝐍𝐑𝐄𝐒: {genres}
-📆 𝐘𝐄𝐀𝐑: <a href={url}/releaseinfo>{year}</a>
-🌟 𝐑𝐀𝐓𝐈𝐍𝐆: <a href={url}/ratings>{rating}</a> / 10 (Based on {votes} user ratings)</b>
-☀️ 𝐋𝐀𝐍𝐆𝐔𝐀𝐆𝐄 : <code>{languages}</code></a>
-📀 𝐑𝐔𝐍𝐓𝐈𝐌𝐄: {runtime} Minutes</a>
+〄 𝐓𝐈𝐓𝐋𝐄: <a href={url}>{title}</a>
+〄 𝐆𝐄𝐍𝐑𝐄𝐒: {genres}
+〄 𝐘𝐄𝐀𝐑: <a href={url}/releaseinfo>{year}</a>
+〄 𝐑𝐀𝐓𝐈𝐍𝐆: <a href={url}/ratings>{rating}</a> / 10 (Based on {votes} user ratings)</b>
+〄 𝐋𝐀𝐍𝐆𝐔𝐀𝐆𝐄 : <code>{languages}</code></a>
+〄 𝐑𝐔𝐍𝐓𝐈𝐌𝐄: {runtime} Minutes</a>
 
 <b>👨‍💼 Requested by : {message.from_user.mention}</b>"""
 
@@ -326,13 +321,20 @@ IMDb Data:
     CHECK_TXT = """
 <b>🔥 ᴄʜᴏᴏsᴇ ʏᴏᴜʀ sᴜɪᴛᴀʙʟᴇ ᴘʟᴀɴ ᴀɴᴅ ᴘᴀʏ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ғᴇᴇs ᴜsɪɴɢ ᴀɴʏ ᴜᴘɪ ᴀᴘᴘ. 
 
-ᴘʟᴀɴ ᴀ : 𝟷 ᴡᴇᴇᴋ / ₹𝟷𝟻
-ᴘʟᴀɴ ʙ : 𝟷 ᴍᴏɴᴛʜ / ₹𝟹𝟿
-ᴘʟᴀɴ ᴄ : 𝟷 ʏᴇᴀʀ / ₹𝟹𝟼𝟶
+🏆 ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs :
 
-➻ ᴜᴘɪ ɪᴅ : harikushal234@paytm
+🥉 15₹ ➛ ʙʀᴏɴᴢᴇ ᴘʟᴀɴ » 7 ᴅᴀʏꜱ
+🥈 39₹ ➛ ꜱɪʟᴠᴇʀ ᴘʟᴀɴ » 28 ᴅᴀʏꜱ
+🥇 119₹ ➛ ɢᴏʟᴅ ᴘʟᴀɴ » 84 ᴅᴀʏꜱ
+🏅 239₹ ➛ ᴘʟᴀᴛɪɴᴜᴍ ᴘʟᴀɴ » 180 ᴅᴀʏꜱ
+🎖 419₹ ➛ ᴅɪᴀᴍᴏɴᴅ ᴘʟᴀɴ » 365 ᴅᴀʏꜱ
 
-‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ ᴀɴᴅ ɢɪᴠᴇ ᴍᴇ sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b>"""
+💵 ᴜᴘɪ ɪᴅ - vmp.070403-1@okicici
+📸 ǫʀ ᴄᴏᴅᴇ - ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ
+
+⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
+
+‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.</b>"""
 
     PLAN1_TXT = """
 <b>🔥 ᴘᴀʏ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ ғᴇᴇs ₹𝟷𝟻 ғᴏʀ 𝟷 ᴡᴇᴇᴋ ᴘʀᴇᴍɪᴜᴍ ᴀᴄᴄᴇss ᴡɪᴛʜ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ ᴀɴᴅ ᴍᴀɴʏ ᴍᴏʀᴇ. 
