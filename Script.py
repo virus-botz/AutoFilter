@@ -280,7 +280,7 @@ Mᴏᴠɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀsᴏɴ:
 
     CAPTION = """<b>💫 ʝσιɳ : <a href=https://t.me/Virus_Networks/4>會๛『 𝐕𝐢𝐫𝐮𝐬 𝐍𝐞𝐭𝐰𝐨𝐫𝐤𝐬 』</a>
 
-🎬 тιтℓє : <a href=https://t.me/Virus_Studios/436>{caption}</a>
+🎬 тιтℓє : <a href=https://t.me/Virus_Studios/436>{file_name}</a>
 
 ♻️ ѕιzє ➠ : {file_size}</b>"""
     
@@ -331,8 +331,6 @@ Mᴏᴠɪᴇs Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ Rᴇᴀsᴏɴ:
 
 💵 ᴜᴘɪ ɪᴅ - vmp.070403-1@okicici
 📸 ǫʀ ᴄᴏᴅᴇ - <a href=https://t.me/Virus_Networks/4>ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ꜱᴄᴀɴ </a>
-
-⚜️ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan
 
 ‼️ ᴍᴜsᴛ sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ ᴀғᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.</b>"""
 
